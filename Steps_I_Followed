@@ -1,0 +1,42 @@
+***Step 1: Download the file
+Download and open the Microsoft Excel workbook Dataset Exercise File.xlsx
+Here's a detailed breakdown of the steps you followed for creating the calculations:
+
+---
+
+**Step 2: Create the calculations**
+
+1. **Calculate the Purchase Cost**  
+   - **Cell G4**: Create a calculation to determine the Purchase Cost.
+   - **Tip**: This is the number of stock items purchased multiplied by the wholesale cost.
+
+2. **Calculate the Total Shipping Costs**  
+   - **Cell H4**: Create a calculation to work out the total shipping costs for the number of items ordered. The shipping cost per item is in cell **P1**.
+   - **Tip**: Ensure the reference to **P1** stays constant when copying the formula down the column using Autofill.
+
+3. **Calculate the Total Costs**  
+   - **Cell I4**: Create a calculation that adds together the purchase and total shipping costs.
+
+4. **Calculate the Retail Price**  
+   - **Cell J4**: Create a calculation to determine the retail price for the individual item in row 4. The retail price must cover:
+     - The wholesale cost of each item.
+     - The shipping cost for the individual item.
+     - Plus a 50% markup.
+   - **Tip**: Use parentheses to ensure the calculation works correctly and include dollar signs on the **P1** cell reference.
+
+5. **Calculate the Revenue**  
+   - **Cell L4**: Create a calculation to determine the amount of revenue earned by selling the number of items listed in **K4** at the retail price calculated in **J4**.
+
+6. **Calculate the Profit**  
+   - **Cell M4**: Create a calculation that subtracts the Total Cost figure from the Revenue figure to generate the Profit figure.
+
+7. **Use Autofill**  
+   - Use the Autofill shortcut on **cell G4** to copy the formula down through the column. Then use the double-click shortcut to repeat this action for the formulas in **H4**, **I4**, **J4**, **L4**, and **M4**.
+   - **Tip**: When double-clicking the shortcut for Autofill, Excel uses the blocks of completed cells to the left as a reference. Check which block of data Excel uses to decide where to stop the copy operation.
+
+8. **Calculate the Overall Profit Margin**  
+   - **Cell P3**: Display the overall profit margin, which indicates what percentage of the sales turned into profit. The formula is:
+     - `=(Total Revenue – Total Costs)/Total Revenue`
+   - Use the Total Costs total in **cell I201** and the Revenue total in **cell L201** to work out the profit margin.
+
+---
